@@ -1,0 +1,144 @@
+.logo {
+    height: 50px;
+    width: 165px;
+}
+
+.navbar {
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0;
+}
+
+.navbar-custom {
+	background-color: #798777;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/sky5.jpg");
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+	color: white;
+	padding-left: 40px; 
+}
+
+.banner_edu {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/education.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_edu-text {
+	color: white;
+}
+
+.banner_participation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/participation.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_participation-text {
+	color: white;
+}
+
+.banner_project {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/projects.jpg");
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_project-text {
+	color: white;
+}
+
+.banner_aspiration {
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../Images/projects.jpg");*/
+    background-color: #A2B29F;
+	height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner_aspiration-text {
+	color: white;
+}
+
+.myccas {
+	object-fit: cover;
+}
+/*
+.aboutme_title {
+	font-size:3vw;
+}
+
+.description {
+	font-size:2vw;
+}
+
+.values {
+	font-size:2vw;
+}
+
+.myinterest h1 {
+	font-size:3vw;
+}
+
+.myinterest h2 {
+	font-size:2vw;
+}
+
+.myinterest p {
+	font-size:1.5vw;
+}
+*/
+
+.tennisIcon {
+	/*max-width: 20%;*/
+	max-width: 5vw;
+}
+
+.artIcon {
+	/*max-width: 20%;*/
+	max-width: 5vw;
+}
+
+.htmlIcon {
+	/*max-width: 20%;*/
+	max-width: 5vw;
+}
+
+@media (max-width: 768px) {
+    .border-end {
+        border-right: 0 !important;
+	}
+}
+
+footer {
+	background-color: #798777;
+	color: white;
+}
+
+.footerLogo {
+	max-width: 20vw;
+}
+
+.socialmedia {
+	/* max-width: 6vw; */
+	width: 50%;
+}
